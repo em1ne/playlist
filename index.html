@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music cubes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_vixkj2dq.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+
+
+        </div>
+    </header>
+    <div class="play-main">
+        <div class="play-list">
+            <ul>
+                <h1>playlist</h1>
+                <li>1-Simge Sağın::Aşkın Olayım</li>
+                <li>2-Emir Can İğrek::Ecza deposu</li>
+                <li>3-Mor ve Ötesi::Bir derdim var </li>
+                <li>4-Semicenk::Sevecek sandım</li>
+                <li>5-Tan Taşçı::Gayrı</li>
+                <li>6-Mert Demir feat Mabel Matiz::Antidepresan</li>
+            </ul>
+        </div>
+    </div>
+    <!-- resimlerin alanı -->
+    <div class="container">
+        <div class="kup">
+            <div class="on" data-yon="1"><img src="images/01.png" alt=""></div>
+            <div class="arka" data-yon="2"><img src="images/02.png" alt=""></div>
+            <div class="sag" data-yon="3"><img src="images/03.png" alt=""></div>
+            <div class="sol" data-yon="4"><img src="images/04.png" alt=""></div>
+            <div class="ust" data-yon="5"><img src="images/05.png" alt=""></div>
+            <div class="alt" data-yon="6"><img src="images/06.png" alt=""></div>
+
+        </div>
+    </div>
+
+    <!-- butonlar -->
+    <div class="butonlar">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+    </div>
+
+    <!-- kontrol butonu -->
+    <div class="kontroller">
+        <button id="durdur"> <i class="fa-solid fa pause"></i></button>
+    </div>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
